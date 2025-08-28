@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffeaea;
+}
+
+/* Header */
+header {
+  margin: 10px;
+  padding: 5px x;
+  display: flex;
+  justify-content: space-between;
+  background: #ffeaea;
+  border-radius: 30px;
+  max-width: 180px;
+  max-height: 500px;
+  box-shadow: 0 2px 8px rgba(217,30,124,0.59);
+  margin-left: 100px;
+  margin-right: 200px;
+  align-items: center;
+  border-top: -20px solid;
+  border-bottom: -20px;
+  border: 4px solid #ffeaea;
+ 
+}
+
+h5 {
+    white-space: nowrap;
+    font-size: 12px;
+    margin-left: 38px;
+}
+
+
+img {
+  width: 40px;
+  height: 20px;
+  margin-right:50px; /* moves icon right */
+}
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 300px;   /* Moves logo left */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  width: 700px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  background: ##ffeaea;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(217,30,124,0.59);
+  margin-right: 89px; /* moves nav links left */
+  margin-left: -200px;
+  position: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+}
+ 
+.personal {
+  border: 2px solid #ffeaea;   /* Adds a visible border */
+  border-radius: 15px;          /* Optional: rounded corners */
+  padding: 6px 18px;            /* Adds space inside the border */
+  background: ##ffeaea;          /* Matches header/nav background */
+  margin-left: 10px;            /* Space from nav */
+  font-size: 13px;
+  box-shadow: 0 2px 8px rgba(217,30,124,0.59); 
+  display: flex;
+  align-items: center;
+}
+
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  background-color: #9f8189;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.hero h1 .dark {
+  color: #333;
+  font-weight: 600;
+}
+
+.hero h1 .light {
+  color: #aaa;
+}
+
+/* Sunrise */
+.sunrise {
+  position: relative;
+  margin-top: 60px;
+  height: 200px;
+}
+
+.sun {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #fcd0d7, #f6b3c0);
+  margin: 0 auto;
+  position: relative;
+  bottom: -50px;
+  z-index: 1;
+}
+
+.cloud {
+  position: absolute;
+  bottom: 0;
+  width: 180px;
+  height: 60px;
+  background: #f5f5f5;
+  border-radius: 50px;
+  opacity: 0.3;
+}
+
+.cloud1 {
+  left: 10%;
+  width: 200px;
+  height: 70px;
+}
+
+.cloud2 {
+  right: 15%;
+  width: 220px;
+  height: 80px;
+}
+
+.cloud3 {
+  left: 40%;
+  width: 250px;
+  height: 90px;
+}
